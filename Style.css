@@ -1,6 +1,4 @@
 ﻿
-
-
 .container {
     padding: 2px 16px;
 }
@@ -13,28 +11,101 @@
     display: inline-block;
     max-width: 300px;
     padding: 4px 4px;
-    margin: 10px;
-    background-color: white;
+    margin: auto;
+    background-color: rosybrown;
 }
 
-    .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        transform: scale(.75,1.5);
-        transition: all .5s ease-in-out;
+    .card:hover {  
+        transform: scale(1.1);
+    }
+
+
+.card {
+    width: 25%;
+    height: 900PX;
+    display: inline-block;
+    align-items: center;
+    margin: auto;
+    float: left;
+    border: 5px;
+}
+h1 {
+    text-align: center;
+    font-size: 600%;
+    color: maroon;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 500%;
+    color: saddlebrown;
+}
+
+
+
+
+h3 {
+    text-align: center;
+    font-size: 300%;
+    color: black;
+}
+
+
+h4 {
+    text-align: center;
+    font-size: 200%;
+    color:darkred;
+}
+
+p {
+    text-align:left;
+    font-size: 150%;
+    color: black;
+    border-style:double;
+    background-color:cornsilk;
+}
+
+html {
+    background-color: peachpuff;
+  
+}
+ol {
+    background-color: olive;
+    color: white;
+}
+
+nav {
+    background-color: orangered;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+li a {
+    background-color: white;
+    display: block;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+li {
+    background-color: rgba(0,0,0,0.25);
+}
+
+    li a:hover {
+        background-color: ghostwhite;
     }
 
 
 
 
-
-h1 {
-    text-align: center;
-    font-size: 250%;
-    color: greenyellow;
-}
-
-
-
-body{
-    background-color:darkgrey;
-}
